@@ -40,19 +40,13 @@ Execute `command1` and redirect both **STDOUT** and **STDERR** to `command2`:
 
 ## Use grep and regular expressions to analyze text
 
-Example:
-
 `grep [options] <regexp> <file>`
 
 ## Access remote systems using ssh
 
-Example:
-
 `ssh [options] [user@]<host>[:port]`
 
 ## Log in and switch users in multiuser targets
-
-Example:
 
 `su - <user>`
 
