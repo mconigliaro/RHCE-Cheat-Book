@@ -1,3 +1,4 @@
+introduction.md
 rhcsa1.md
 rhcsa2.md
 rhcsa3.md
