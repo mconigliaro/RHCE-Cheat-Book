@@ -52,19 +52,19 @@ Execute `command1` and redirect both **STDOUT** and **STDERR** to `command2`:
 
 ## Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2
 
-Archive and compress using tar/gzip:
+Archive and compress using (s)tar/gzip:
 
     <tar|star> cvzf <file>.tgz <directory>
 
-Uncompress and unpack using tar/gzip:
+Uncompress and unpack using (s)tar/gzip:
 
     <tar|star> xvzf <file>.tgz
 
-Archive and compress using tar/bzip:
+Archive and compress using (s)tar/bzip:
 
     <tar|star> cvjf <file>.tbz <directory>
 
-Uncompress and unpack using tar/bzip:
+Uncompress and unpack using (s)tar/bzip:
 
     <tar|star> xvjf <file>.tbz
 
