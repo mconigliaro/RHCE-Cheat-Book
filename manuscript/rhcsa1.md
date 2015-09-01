@@ -52,25 +52,59 @@ Execute `command1` and redirect both **STDOUT** and **STDERR** to `command2`:
 
 ## Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2
 
-### Archive and compress using tar/gzip
+Archive and compress using tar/gzip:
 
     <tar|star> cvzf <file>.tgz <directory>
 
-### Uncompress and unpack using tar/gzip
+Uncompress and unpack using tar/gzip:
 
     <tar|star> xvzf <file>.tgz
 
-### Archive and compress using tar/bzip
+Archive and compress using tar/bzip:
 
     <tar|star> cvjf <file>.tbz <directory>
 
-### Uncompress and unpack using tar/bzip
+Uncompress and unpack using tar/bzip:
 
     <tar|star> xvjf <file>.tbz
 
 ## Create and edit text files
 
+    <vi|nano> <file>
+
 ## Create, delete, copy, and move files and directories
+
+Create a file:
+
+    <vi|nano|touch> <file>
+
+Delete a file:
+
+    rm <file>
+
+Copy a file:
+
+    cp <file1> <file2>
+
+Move (rename) a file:
+
+    mv <file> <file2>
+
+Create a directory:
+
+    mkdir <dir>
+
+Delete a directory:
+
+    rm -r[f] <dir>
+
+Copy a directory:
+
+    cp -r <dir1> <dir2>
+
+Move (rename) a directory:
+
+    mv <dir1> <dir2>
 
 ## Create hard and soft links
 
