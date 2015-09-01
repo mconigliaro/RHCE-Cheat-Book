@@ -118,4 +118,18 @@ Create a soft link `link` that points to `target`:
 
 ## List, set, and change standard ugo/rwx permissions
 
+List permissions:
+
+    ll [file]
+
+Change permissions:
+
+    chmod <mode> <file>
+
 ## Locate, read, and use system documentation including man, info, and files in /usr/share/doc
+
+Access man pages:
+
+    man [section] <page>
+
+Additional documentation for installed packages can be found in: `/usr/share/doc`
