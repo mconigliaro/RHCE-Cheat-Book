@@ -82,13 +82,13 @@ Delete a file:
 
     rm <file>
 
-Copy a file:
+Copy a file from `src` to `dst`:
 
-    cp <file1> <file2>
+    cp <src> <dst>
 
-Move (rename) a file:
+Move (rename) a file from `src` to `dst`:
 
-    mv <file> <file2>
+    mv <src> <dst>
 
 Create a directory:
 
@@ -98,15 +98,23 @@ Delete a directory:
 
     rm -r[f] <dir>
 
-Copy a directory:
+Copy a directory from `src` to `dst`:
 
-    cp -r <dir1> <dir2>
+    cp -r <src> <dst>
 
-Move (rename) a directory:
+Move (rename) a directory from `src` to `dst`:
 
-    mv <dir1> <dir2>
+    mv <src> <dst>
 
 ## Create hard and soft links
+
+Create a hard link:
+
+    ln <target> <link>
+
+Create a soft link `link` that points to `target`: 
+
+    ln -s <target> <link>
 
 ## List, set, and change standard ugo/rwx permissions
 
