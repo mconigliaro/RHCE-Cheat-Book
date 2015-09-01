@@ -128,8 +128,14 @@ Change permissions:
 
 ## Locate, read, and use system documentation including man, info, and files in /usr/share/doc
 
+Try command line help:
+
+    <command> --help
+
 Access man pages:
 
     man [section] <page>
 
-Additional documentation for installed packages can be found in: `/usr/share/doc`
+Additional documentation can often be found in `/usr/share/doc`:
+
+    less /usr/share/doc/example-1.0/example.txt
