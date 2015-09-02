@@ -1,8 +1,6 @@
 # Introduction
 
-## How to use this book
-
-This book provides quick answers for all objectives on the RHCSA (EX200) and RHCE (EX300) exams for Red Hat Enterprise Linux 7. Explanations have been left out or the sake of succinctness. As-such, this book will not necessarily teach you everything you need to know to obtain an RHCSA/RHCE certification, or to be an effective system administrator. Its target audience is mainly IT professionals who are already familiar with Red Hat Linux, and anyone who wants a small reference to complement a more comprehensive guide to the RHCSA/RHCE exams.
+This book provides the quickest possible solution for every objective on the RHCSA (EX200) and RHCE (EX300) exams for Red Hat Enterprise Linux 7. Long explanations have been completely left out for the sake of succinctness. Consequently, this is not a book for beginners. Its target audience is mainly IT professionals who already have some familiarity with Linux, and anyone who wants a compact reference to complement a more comprehensive guide to the RHCSA/RHCE exams.
 
 ## Command line conventions
 
