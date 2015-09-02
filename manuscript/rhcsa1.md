@@ -14,6 +14,8 @@ Execute `command` using `file` as the source of input:
 
 ### Output redirection to files
 
+I> In the following examples, remember that `>>` can be used in place of `>` to append to the destination file instead of overwriting it.
+
 Execute `command` and redirect **STDOUT** to `file`:
 
     <command> > <file>
@@ -25,8 +27,6 @@ Execute `command` and redirect **STDERR** to `file`:
 Execute `command` and redirect both **STDOUT** and **STDERR** to `file`:
 
     <command> &> <file>
-
-I> Remember that `>>` can be used in place of `>` to append to the destination file instead of overwriting it.
 
 ### Piping
 
