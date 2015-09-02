@@ -26,7 +26,7 @@ Execute `command` and redirect both **STDOUT** and **STDERR** to `file`:
 
     <command> &> <file>
 
-Note that `>>` can be used in place of `>` to append to the destination file instead of overwriting it.
+I> Remember that `>>` can be used in place of `>` to append to the destination file instead of overwriting it.
 
 ### Piping
 
@@ -52,31 +52,33 @@ Execute `command1` and redirect both **STDOUT** and **STDERR** to `command2`:
 
 ## Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2
 
+I> In each of the following examples, `tar` and `star` are interchangeable.
+
 Archive and compress using (s)tar/gzip:
 
-    <tar|star> cvzf <file>.tgz <directory>
+    tar cvzf <file>.tgz <directory>
 
 Uncompress and unpack using (s)tar/gzip:
 
-    <tar|star> xvzf <file>.tgz
+    tar xvzf <file>.tgz
 
 Archive and compress using (s)tar/bzip:
 
-    <tar|star> cvjf <file>.tbz <directory>
+    tar cvjf <file>.tbz <directory>
 
 Uncompress and unpack using (s)tar/bzip:
 
-    <tar|star> xvjf <file>.tbz
+    tar xvjf <file>.tbz
 
 ## Create and edit text files
 
-    <vi|nano> <file>
+    nano <file>
 
 ## Create, delete, copy, and move files and directories
 
 Create a file:
 
-    <vi|nano|touch> <file>
+    nano <file>
 
 Delete a file:
 
@@ -138,4 +140,4 @@ Access man pages:
 
 Additional documentation can often be found in `/usr/share/doc`:
 
-    less /usr/share/doc/example-1.0/example.txt
+    less /usr/share/doc/<path>
