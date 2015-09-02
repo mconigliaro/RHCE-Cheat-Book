@@ -2,7 +2,7 @@
 
 ## Access a shell prompt and issue commands with correct syntax
 
-To access a shell prompt: `Ctrl`+`Alt`+`F2`
+To access a shell prompt once the system has finished booting: `Ctrl`+`Alt`+`F2`
 
 ## Use input-output redirection (>, >>, |, 2>, etc.)
 
@@ -14,7 +14,9 @@ Execute `command` using `file` as the source of input:
 
 ### Output redirection to files
 
-I> In the following examples, remember that `>>` can be used in place of `>` to append to the destination file instead of overwriting it.
+I> ## Note
+I>
+I> Remember that `>>` can be used in place of `>` to append to the destination file instead of overwriting it.
 
 Execute `command` and redirect **STDOUT** to `file`:
 
@@ -52,7 +54,9 @@ Execute `command1` and redirect both **STDOUT** and **STDERR** to `command2`:
 
 ## Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2
 
-I> In each of the following examples, `tar` and `star` are interchangeable.
+I> ## Note
+I>
+I> For the following examples, `tar` and `star` are interchangeable.
 
 Archive and compress using (s)tar/gzip:
 
